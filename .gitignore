@@ -1,0 +1,43 @@
+# Arquivos gerados pelo compilador Java
+*.class
+*.jar
+*.war
+*.ear
+*.ser
+
+# Diretórios de saída do build (Maven, Gradle, etc.)
+target/
+build/
+out/
+dist/
+bin/
+
+# Arquivos de configuração do IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+*.swo
+
+# Arquivos de log e temporários
+*.log
+*.tmp
+*.bak
+
+# Arquivos de dependências (Maven, Gradle)
+/vendor/
+/lib/
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de ambiente (variáveis de ambiente, chaves, etc.)
+.env
+*.env
+
+# Arquivos de teste ou cobertura (opcional, se não quiser versionar)
+/coverage/
+*.lcov
